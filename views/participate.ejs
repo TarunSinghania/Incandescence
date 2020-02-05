@@ -11,9 +11,11 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="stylesheet/loader/loader.css" type="text/css">
-    <link rel="stylesheet" href="stylesheet/menu/menu.css" type="text/css">
-    <link rel="stylesheet" href="stylesheet/event/eventmenu.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="stylesheet/menu/menu.css">
+    <link rel="stylesheet" type="text/css" href="stylesheet/gallery/gallerymenu.css">
     <link rel="stylesheet" href="stylesheet/participate/participate.css" type="text/css">
+    <link rel='stylesheet' type="text/css" href='stylesheet/footer/footer.css'>
+    <!-- <link rel='stylesheet' type="text/css" href='stylesheet/team/footer.css'> -->
 
     <title style="font-family:'Courier New', Courier, monospace">Incandescence</title>
     <link rel="shortcut icon" href="fonts/i.png">
@@ -56,92 +58,106 @@
 
         <div id="cld1c">
             <div id="cld1">
-                <a href="/event" id="link1">Events</a>
+                <p>Menu</p>
             </div>
         </div>
 
         <div id="cld2c">
             <div id="cld2">
-                <a href="/gallery" id="link2">Gallery</a>
             </div>
         </div>
 
         <div id="cld3c">
             <div id="cld3">
-                <a href="/brochure" id="link3">Brochure</a>
             </div>
         </div>
 
         <div id="cld4c">
             <div id="cld4">
-                <a href="/register" id="link4">Tickets</a>
+                <a href="/event" id="link1">Events</a>
             </div>
         </div>
 
         <div id="cld5c">
             <div id="cld5">
-                <a href="/munhome" id="link5">NITS MUN</a>
+                <a href="/gallery" id="link2">Gallery</a>
             </div>
         </div>
 
         <div id="cld6c">
             <div id="cld6">
-                <a href="http://www.razzmatazznits.com" id="link6">Razzmatazz</a>
+                <a href="/brochure" id="link3">Brochure</a>
             </div>
         </div>
 
         <div id="cld7c">
             <div id="cld7">
-                <p>Menu</p>
+                <a href="/register" id="link4">Tickets</a>
             </div>
         </div>
 
         <div id="cld8c">
             <div id="cld8">
+                <a href="/munhome" id="link5">NITS MUN</a>
             </div>
         </div>
 
         <div id="cld9c">
             <div id="cld9">
+                <a href="http://www.razzmatazznits.com" id="link6">Razzmatazz</a>
+            </div>
+        </div>
+
+
+        <div id="cld10c">
+            <div id="cld10">
+                <a href="/indieunplugged" id="link6">Indie</a>
+            </div>
+        </div>
+
+
+        <div id="cld11c">
+            <div id="cld11">
+                <a href="/thundermarch" id="link6">Thundermarch</a>
             </div>
         </div>
 
     </div>
 
-    
-            <br>
-            <br>
-            <br>
-            <div class='form-container'>
-                <div class="container">
-                    <div class="row">
 
-                        <div class="col-lg-10 col-xl-9 mx-auto">
-                            <div class="card card-signin flex-row my-5">
-                                <div class="card-img-left d-none d-md-flex">
-                                    <!-- Background image for card set in CSS! -->
-                                </div>
-                                <div class="card-body">
-                                    <h5 class="card-title text-center">
-                                        <span>I</span>
-                                        <span>N</span>
-                                        <span>C</span>
-                                        <span>A</span>
-                                        <span>N</span>
-                                        <span>D</span>
-                                        <span>E</span>
-                                        <span>S</span>
-                                        <span>C</span>
-                                        <span>E</span>
-                                        <span>N</span>
-                                        <span>C</span>
-                                        <span>E</span>
-                                    </h5>
+    <br>
+    <br>
+    <br>
+    <div class='form-container'>
+        <div class="container">
+            <div class="row">
 
-                                    <form class="form-signin" method="POST" action="/book">
+                <div class="col-lg-10 col-xl-9 mx-auto">
+                    <div class="card card-signin flex-row my-5">
+                        <div class="card-img-left d-none d-md-flex">
+                            <!-- Background image for card set in CSS! -->
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">
+                                <span>I</span>
+                                <span>N</span>
+                                <span>C</span>
+                                <span>A</span>
+                                <span>N</span>
+                                <span>D</span>
+                                <span>E</span>
+                                <span>S</span>
+                                <span>C</span>
+                                <span>E</span>
+                                <span>N</span>
+                                <span>C</span>
+                                <span>E</span>
+                            </h5>
 
-                                        <div class="form-label-group">
-                                            <select class="custom-select" name="event">
+                            <form class="form-signin" method="POST" action="/book">
+
+                                <div class="form-label-group">
+                                    <select class="custom-select" name="event">
                                 <option selected>Select Event</option>
                                 <option value="1">Glitterati</option>
                                 <option value="2">Nirvana</option>
@@ -149,31 +165,68 @@
                                 <option value="4">Thundermarch</option>    
                                 <option value="5">Incandescence</option>
                             </select>
-                                        </div>
-
-                                        <hr>
-
-                                        <button class="btn btn-lg btn-grad btn-block text-uppercase" type="submit">Get Pass</button>
-                                        
-
-                                    </form>
                                 </div>
-                            </div>
+
+                                <hr>
+
+                                <button class="btn btn-lg btn-grad btn-block text-uppercase" type="submit">Get Pass</button>
+
+
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
-            <script src="js/menu/menu.js"></script>
-            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-            <script type="text/javascript">
-                window.addEventListener('load', function() {
-                    $(window).resize(function(e) {
-                        adaptMenu();
-                    });
-                    document.getElementById('loader').remove();
-                });
+        </div>
+    </div>
+
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+            <a href='/'><img src='/image/menu/logo.png' style="width: 100%;"></a>
+        </div>
+
+        <div class="footer-center">
+            <h3>Quick Links</h3>
+            <ul style="list-style:none;" class="footer-links">
+                <li><a href="/faq">FAQ</a></li>
+                <li><a href="/team">Contact</a></li>
+                <li><a href="/reachus">Reach Us</a></li>
+                <li><a href="/sponsors">Sponsors</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-right">
+            <div class="footer-links">
+                <a href="/campus">
+                    <h3>Campus Ambassador</i>
+                    </h3>
+                </a>
+            </div>
+            <div class="footer-icons">
+                <a href="https://www.facebook.com/incandescence.nits"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/incandnits?lang=en"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.youtube.com/channel/UCb_0C06vYP674tyu50o7-Fg"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.instagram.com/incandescence.nits/"><i class="fab fa-instagram"></i></a>
+                <a href="mailto:incandescencenitsilchar@gmail.com"><i class="fa fa-envelope"></i></a>
+            </div>
+        </div>
+
+    </footer>
+
+
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="js/menu/menu.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        window.addEventListener('load', function() {
+            $(window).resize(function(e) {
                 adaptMenu();
-            </script>
+            });
+            document.getElementById('loader').remove();
+        });
+        adaptMenu();
+    </script>
 
 </body>
 
