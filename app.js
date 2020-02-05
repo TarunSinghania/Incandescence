@@ -99,11 +99,21 @@ app.get('/', (req, res) => {
 })
 
 app.get('/register', (req, res) => {
-    res.render('register', { validate: 1 })
+    res.render('participate')
 })
 
 app.get('/adminlogin', (req, res) => {
     res.render('adminlogin')
+})
+
+app.post('/book',(req, res)=>{
+    var value  = req.body.event
+    if(value == 1) res.redirect('https://www.thecollegefever.com/events/gliterrati')
+    else if(value == 2) res.redirect('https://www.thecollegefever.com/events/nirvana-Bm8ABcJ9h2')
+    else if(value == 3) res.redirect('https://www.thecollegefever.com/events/carpedium')
+    else if(value == 4) res.redirect('https://www.thecollegefever.com/events/thundermarch-HnvXWKb9kk')
+    else if(value == 5) res.redirect('https://www.thecollegefever.com/events/incandescence')
+
 })
 
 

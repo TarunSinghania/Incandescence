@@ -333,6 +333,7 @@ body::-webkit-scrollbar {
 
 body {
     -ms-overflow-style: none;
+    overflow: hidden;
 }
 
 .footer-distributed {

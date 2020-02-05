@@ -1,15 +1,27 @@
 body {
-    /* background: url(/image/gallery/back2.svg) repeat-x; */
-    background-size: auto 100%;
+    overflow-x: hidden;
+    background: url(/image/gallery/back2.svg) repeat-x;
+    background-size: cover;
     background-position: bottom center;
 }
+
+
+/* .background {
+    filter: blur(5px);
+    position: absolute;
+} */
 
 .team {
     position: relative;
     top: 0px;
     left: 0px;
     width: 100%;
-    height: auto;
+    height: 390vw;
+    margin: 10vh 0%;
+}
+
+.team div {
+    border: 4px solid rgb(255, 255, 255);
 }
 
 .circle1 {
@@ -340,6 +352,7 @@ body {
     margin: 1em auto;
     border-radius: 50%;
     background: #a7cd80;
+    filter: blur(-5px);
 }
 
 .circle40 {
@@ -382,4 +395,160 @@ body {
 .content span {
     vertical-align: middle;
     display: inline-block;
+}
+
+#director {
+    background: url(/image/team/director.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#patron {
+    background: url(/image/team/patron.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#convener1 {
+    background: url(/image/team/ashish.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#convener2 {
+    background: url(/image/team/dupal.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#coordinator {
+    background: url(/image/team/sarvagya.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#marketing {
+    background: url(/image/team/shikher.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#content {
+    background: url(/image/team/abhi.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#pr {
+    background: url(/image/team/udit.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#publicity1 {
+    background: url(/image/team/nishan.jpg) no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+#publicity2 {
+    background: url(/image/team/swapnil.jpg) no-repeat;
+    background-size: cover;
+    background-position: center left;
+}
+
+#design1 {
+    background: url(/image/team/tushar.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#design2 {
+    background: url(/image/team/akashjyoti.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#web4 {
+    background: url(/image/team/tarun.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#web9 {
+    background: url(/image/team/prakash.jpg) no-repeat;
+    background-size: cover;
+    background-position: 0% 100%;
+}
+
+#web13 {
+    background: url(/image/team/abhinash.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#web1 {
+    background: url(/image/team/mrinmoy.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#web2 {
+    background: url(/image/team/puja.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#web3 {
+    background: url(/image/team/abhisek.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#web5 {
+    background: url(/image/team/aditya.jpg) no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+#web6 {
+    background: url(/image/team/anuva.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#web7 {
+    background: url(/image/team/kartik.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#web8 {
+    background: url(/image/team/rahul.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#web10 {
+    background: url(/image/team/rajeev.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#web11 {
+    background: url(/image/team/suvrajeet.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#web12 {
+    background: url(/image/team/shashwat.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#web14 {
+    background: url(/image/team/nabanita.jpeg) no-repeat;
+    background-size: cover;
+    background-position: top center;
 }
