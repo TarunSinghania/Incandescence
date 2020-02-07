@@ -1,6 +1,7 @@
 body {
     overflow-x: hidden;
-    background: url(/image/gallery/back2.svg) repeat-x;
+    background: url(/image/team/cover.png) repeat-x;
+    background-attachment: fixed;
     background-size: cover;
     background-position: bottom center;
 }
@@ -20,9 +21,73 @@ body {
     margin: 10vh 0%;
 }
 
-.team div {
+.circle{
     border: 4px solid rgb(255, 255, 255);
+    font-family: 'Philosopher', sans-serif;
 }
+
+.dir p{
+    font-size: 30px;
+    margin-top: -20px;
+    padding-left: 24%;
+}
+
+.pat p{
+    font-size: 22px;
+    margin-top: -20px;
+    padding-left: 20%;
+}
+
+.market p{
+    font-size: 22px;
+    margin-top: -20px;
+    padding-left: 20%;
+}
+
+.coor p{
+    font-size: 24px;
+    margin-top: -20px;
+    padding-left: 20%;
+}
+
+.pr p{
+    font-size: 22px;
+    margin-top: -20px;
+    padding-left: 20%;
+}
+
+.ph p{
+    font-size: 22px;
+    margin-top: -20px;
+    padding-left: 20%;
+}
+
+.design p{
+    font-size: 16px;
+    margin-top: -20px;
+    padding-left: 20%;
+}
+
+.webteam p{
+    font-size: 16px;
+    margin-top: -20px;
+    padding-left: 20%;
+}
+
+
+
+.con p{
+    font-size: 30px;
+    margin-top: -20px;
+    padding-left: 24%;
+}
+
+.co p{
+    font-size: 30px;
+    margin-top: -20px;
+    padding-left: 24%;
+}
+
 
 .circle1 {
     display: inline-flex;
@@ -377,20 +442,21 @@ body {
 
 .content {
     position: absolute;
-    top: 0;
+    top: 40%;
     left: 0;
     width: 100%;
     height: 100%;
     text-align: center;
+    font-size: 1.5em;
 }
 
-.content:before {
+/*.content:before {
     content: '';
     vertical-align: middle;
     display: inline-block;
     width: 0;
     height: 100%;
-}
+}*/
 
 .content span {
     vertical-align: middle;
@@ -407,12 +473,15 @@ body {
     background: url(/image/team/patron.jpg) no-repeat;
     background-size: cover;
     background-position: center;
+     object-fit: cover;
+
 }
 
 #convener1 {
     background: url(/image/team/ashish.jpg) no-repeat;
     background-size: cover;
     background-position: center;
+    object-fit: cover;
 }
 
 #convener2 {
@@ -551,4 +620,261 @@ body {
     background: url(/image/team/nabanita.jpeg) no-repeat;
     background-size: cover;
     background-position: top center;
+}
+.blur{
+    opacity: 0.2;
+}
+
+.circle:hover {
+    opacity: 1;
+}
+
+
+.info {
+  position: absolute;
+  width: 90%;
+  height: 70%;
+  bottom: -17%;
+  padding: 20px;
+  padding-top: 100px;
+  text-align: center;
+  border: none;
+  visibility: hidden;
+  border-radius: 50%;
+}
+
+
+
+.circle:hover .info {
+  bottom: 0;
+  visibility: visible;
+  background: linear-gradient(0deg,  #ecfcff,  transparent);
+
+}
+
+.circle:hover .info h2 {
+  margin-top: 100px;
+  font-size: 2em;
+}
+
+
+.info1 {
+  position: absolute;
+  width: 76%;
+  height: 23%;
+  bottom: -19%;
+  padding: 20px;
+  padding-top: 100px;
+  text-align: center;
+  border: none;
+  visibility: hidden;
+  border-radius: 50%;
+}
+
+
+
+.circle:hover .info1 {
+  bottom: 0;
+  visibility: visible;
+  background: linear-gradient(0deg,  #fff1e9,  transparent);
+
+}
+
+.circle:hover .info1 h2 {
+  font-size: 1.3em;
+  margin-top: -40px;
+}
+
+
+.info2 {
+  position: absolute;
+  width: 79%;
+  height: 35%;
+  bottom: -19%;
+  padding: 20px;
+  padding-top: 100px;
+  text-align: center;
+  border: none;
+  visibility: hidden;
+  border-radius: 50%;
+}
+
+
+
+.circle:hover .info2 {
+  bottom: 0;
+  visibility: visible;
+  background: linear-gradient(0deg,  #d9eeec,  transparent);
+
+}
+
+.circle:hover .info2 h2 {
+  font-size: 1.2em;
+  margin-top: -10%;
+}
+
+.info3 {
+  position: absolute;
+  width: 85%;
+  height: 50%;
+  bottom: -19%;
+  padding: 20px;
+  padding-top: 100px;
+  text-align: center;
+  border: none;
+  visibility: hidden;
+  border-radius: 50%;
+}
+
+
+
+.circle:hover .info3 {
+  bottom: 0;
+  visibility: visible;
+  background: linear-gradient(0deg,  #e4f2f0,  transparent);
+
+}
+
+.circle:hover .info3 h2 {
+  font-size: 1.8em;
+  margin-top: 10px;
+}
+
+.info4 {
+  position: absolute;
+  width: 87%;
+  height: 62%;
+  bottom: -19%;
+  padding: 20px;
+  padding-top: 100px;
+  text-align: center;
+  border: none;
+  visibility: hidden;
+  border-radius: 50%;
+}
+
+ .conf img {
+    height: 100px;
+    width: 160px;
+    margin-top: -45px;
+    margin-left: 10%;
+}
+
+ .mar img {
+    height: 90px;
+    width: 113px;
+    margin-top: -45px;
+    margin-left: 14%;
+
+}
+
+
+
+.circle:hover .info4 {
+  bottom: 0;
+  visibility: visible;
+  background: linear-gradient(0deg,  #fae8c8,  transparent);
+
+}
+
+.circle:hover .info4 h2 {
+  font-size: 2em;
+  margin-top: 50px;
+}
+
+.team ul {
+  display: flex;
+  margin: 20px 0 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.team ul li {
+  list-style: none;
+  
+}
+
+.team li a {
+  color: #ffd6c2;
+  padding: 0 10px;
+  transition: 0.5s;
+}
+
+
+#color {
+    animation-name: color_change;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#color1 {
+    animation-name: color_change;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 0.5s;
+}
+
+#color2 {
+    animation-name: color_change;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 1s;
+}
+
+#color3 {
+    animation-name: color_change;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 1.5s;
+}
+
+
+
+@keyframes color_change {
+    0% { background-color: #81f5ff; }
+25% { background-color: #ffd5e5; }
+50% { background-color: #ffbaba; }
+75% { background-color: #d2ebe9; }
+100% { background-color: #9aceff; }
+}
+
+.team i {
+    color: #230444;
+    font-size: 1.2em;
+}
+
+
+h2 {
+    color: #2d132c;
+}
+
+ h2 span{
+  color: #015668;
+  font-size: 0.8em;
+}
+
+
+.team .info li a {
+    font-size: 2.5em;
+}
+
+.team .info1 li a {
+    font-size: 1.3em;
+}
+
+.team .info2 li a {
+    font-size: 1.2em;
+}
+
+.team .info3 li a {
+    font-size: 1.8em;
+}
+
+.team .info4 li a {
+    font-size: 1.8em;
 }
