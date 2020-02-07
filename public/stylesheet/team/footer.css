@@ -1,3 +1,12 @@
 .footer-distributed {
-    padding: 0px;
+    padding: 50px 0 0 0;
+    background-color: linear-gradient( transparent, rgba(0,0,0,0.5));
+}
+
+.footer-distributed .footer-icons a {
+	color: #fab696;
+}
+
+.footer-distributed a {
+	color: #fab696;
 }
